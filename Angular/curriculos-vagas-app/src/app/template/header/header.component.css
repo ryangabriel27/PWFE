@@ -1,0 +1,15 @@
+nav {
+    background-color: #343a40;
+}
+
+a,
+li {
+    color: white;
+}
+
+a:hover,
+li:hover,
+a:focus,
+li:focus {
+    color: rgb(194, 194, 194);
+}
