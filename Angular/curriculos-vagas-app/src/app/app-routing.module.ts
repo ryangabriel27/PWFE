@@ -7,12 +7,13 @@ import { PainelVagasComponent } from './view/painel-vagas/painel-vagas.component
 
 const routes: Routes = [
   { path: '', component: InicioComponent }, // Rota para a página inicial
-  { path: 'curriculos', component: CurriculosComponent }, // Rota para currículos
+  { path: 'curriculos', component: CurriculosComponent }, // Rota paracurrículos
   { path: 'vagas', component: VagasComponent }, // Rota para vagas
-  { path: 'painel', component: PainelVagasComponent}
+  { path: 'painel', component: PainelVagasComponent },
 ];
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class AppRoutingModule { }
