@@ -11,6 +11,7 @@ import { InicioComponent } from './view/inicio/inicio.component';
 import { CurriculosComponent } from './view/curriculos/curriculos.component';
 import { VagasComponent } from './view/vagas/vagas.component';
 import { PainelVagasComponent } from './view/painel-vagas/painel-vagas.component';
+import { PainelCurriculosComponent } from './view/painel-curriculos/painel-curriculos.component';
 import { HeaderComponent } from './template/header/header.component';
 import { FooterComponent } from './template/footer/footer.component';
 
@@ -20,6 +21,7 @@ import { FooterComponent } from './template/footer/footer.component';
     InicioComponent,
     CurriculosComponent,
     VagasComponent,
+    PainelCurriculosComponent,
     PainelVagasComponent,
     HeaderComponent,
     FooterComponent

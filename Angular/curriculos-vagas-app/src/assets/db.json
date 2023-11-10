@@ -22,13 +22,5 @@
       "salario": "3000"
     }
   ],
-  "curriculos": [
-    {
-        "id": 1,
-        "nome": "Ryan Gabriel De Julio",
-        "idade": 17,
-        "telefone": 123456789,
-        "descricao": "Trabalhar com Desenvolvimento Web"
-      }
-  ]
+  "curriculos": []
 }
